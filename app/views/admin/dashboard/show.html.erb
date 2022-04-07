@@ -1,5 +1,9 @@
 <h1>Admin Dashboard</h1>
 <h3>Number of Categories: <%=  @category%></h3>
+<form action="/admin/categories">
+  <input class="btn btn-primary" type="submit" value="All Categories" />
+</form>
+
 <h3>Number of Products: <%=  @product%></h3>
 <form action="/admin/products">
   <input class="btn btn-primary" type="submit" value="All Products" />
