@@ -1,6 +1,22 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. Tested using RSpec.
+
+Many features of this project were already in place. I was responsible for understanding the given code and updating these features:
+
+## New Features ##
+1. User Authentication (using bcrypt and has_secure_password).
+2. Admin creation of new categories
+3. Sold out badge to show when products are not in stock.
+
+## Screenshots
+## screenshot of creating main page showing products. ##
+!["screenshot of creating main page showing products."](https://github.com/tackpablo/jungle-rails/blob/master/public/images/Home%20Page.png?raw=true)
+## screenshot of full cart before ordering ##
+!["screenshot of full cart before ordering"](https://github.com/tackpablo/jungle-rails/blob/master/public/images/Cart%20Page.png?raw=true)
+## screenshot of order confirmation ##
+!["screenshot of order confirmation"](https://github.com/tackpablo/jungle-rails/blob/master/public/images/Order%20Fulfilled%20Page.png?raw=true)
+
 
 ## Additional Steps for Apple M1 Machines
 
